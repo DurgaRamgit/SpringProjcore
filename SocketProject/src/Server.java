@@ -9,6 +9,7 @@ public class Server
 {
     public static void main(String[] args)
     {
+    	System.out.println("Server Main() method ....");
        ArrayList<Socket> sockets=new ArrayList<Socket>();
        ArrayList<SocketAddress> str= new ArrayList<SocketAddress>();
        ServerSocket s=null;
